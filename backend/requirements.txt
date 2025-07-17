@@ -4,3 +4,6 @@ transformers
 langchain
 langchain-huggingface
 torch
+scikit-learn
+datasets
+transformers[torch]

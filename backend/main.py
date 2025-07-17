@@ -7,10 +7,6 @@ from controllers.transformer import sentiment_analysis
 
 app = FastAPI()
 
-# class Label(Enum):
-#     POSITIVE = "positive"
-#     NEGATIVE = "negative"
-
 class PredictType(BaseModel):
     text: str
 
@@ -21,10 +17,6 @@ app.add_middleware(
     allow_methods=["*"],  # Allows all methods
     allow_headers=["*"],  # Allows all headers
 )
-
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
 
 @app.post("/predict")
 async def predict(predict_data: PredictType):

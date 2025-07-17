@@ -1,0 +1,44 @@
+{"text": "Great product!", "label": "positive"}
+{"text": "Terrible quality", "label": "negative"}
+{"text": "Amazing service!", "label": "positive"}
+{"text": "Worst experience ever", "label": "negative"}
+{"text": "I love this product!", "label": "positive"}
+{"text": "I hate this product!", "label": "negative"}
+{"text": "This is fantastic!", "label": "positive"}
+{"text": "This is awful", "label": "negative"}
+{"text": "Very satisfied with my purchase", "label": "positive"}
+{"text": "Extremely disappointed", "label": "negative"}
+{"text": "Best decision I've made", "label": "positive"}
+{"text": "Biggest regret ever", "label": "negative"}
+{"text": "I would buy this again", "label": "positive"}
+{"text": "I will never buy this again", "label": "negative"}
+{"text": "Highly recommend this product", "label": "positive"}
+{"text": "Do not waste your money on this", "label": "negative"}
+{"text": "Absolutely love it!", "label": "positive"}
+{"text": "Hated every moment of it", "label": "negative"}
+{"text": "This is worth every penny", "label": "positive"}
+{"text": "This was a complete waste of money", "label": "negative"}
+{"text": "I am very happy with this", "label": "positive"}
+{"text": "I am very unhappy with this", "label": "negative"}
+{"text": "This exceeded my expectations", "label": "positive"}
+{"text": "This did not meet my expectations", "label": "negative"}
+{"text": "I would recommend this to my friends", "label": "positive"}
+{"text": "I would not recommend this to anyone", "label": "negative"}
+{"text": "This is a game changer", "label": "positive"}
+{"text": "This is a total failure", "label": "negative"}
+{"text": "I am impressed with the quality", "label": "positive"}
+{"text": "The quality is subpar", "label": "negative"}
+{"text": "This is a great value for money", "label": "positive"}
+{"text": "This is overpriced for what it offers", "label": "negative"}
+{"text": "I will definitely buy this again", "label": "positive"}
+{"text": "I regret buying this", "label": "negative"}
+{"text": "This is a must-have item", "label": "positive"}
+{"text": "This is not worth your time", "label": "negative"}
+{"text": "I am very satisfied with this purchase", "label": "positive"}
+{"text": "I am very dissatisfied with this purchase", "label": "negative"}
+{"text": "This is a fantastic product", "label": "positive"}
+{"text": "This is a terrible product", "label": "negative"}
+{"text": "I would give this 5 stars", "label": "positive"}
+{"text": "I would give this 1 star", "label": "negative"}
+{"text": "This has changed my life for the better", "label": "positive"}
+{"text": "This has made my life worse", "label": "negative"}
