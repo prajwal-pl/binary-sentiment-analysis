@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
+import { analyzeSentiment as apiAnalyzeSentiment } from "@/lib/api";
 
 interface SentimentResult {
-  sentiment: "positive" | "negative";
-  confidence: number;
+  label: string;
+  score: number;
 }
 
 export function SentimentAnalyzer() {
@@ -17,25 +18,16 @@ export function SentimentAnalyzer() {
 
     setIsLoading(true);
     try {
-      // TODO: Replace with actual API call to backend
-      const response = await fetch("/api/analyze", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text }),
-      });
-
-      if (!response.ok) {
-        throw new Error("Analysis failed");
-      }
-
-      const data = await response.json();
-      setResult(data);
+      const data = await apiAnalyzeSentiment(text);
+      // The API returns an array, we take the first result
+      const result = Array.isArray(data) ? data[0] : data;
+      setResult(result);
     } catch (error) {
       console.error("Analysis failed:", error);
       // Fallback with mock data for demo
       const mockResult: SentimentResult = {
-        sentiment: Math.random() > 0.5 ? "positive" : "negative",
-        confidence: Math.random() * 0.4 + 0.6,
+        label: Math.random() > 0.5 ? "POSITIVE" : "NEGATIVE",
+        score: Math.random() * 0.4 + 0.6,
       };
       setResult(mockResult);
     } finally {
@@ -123,34 +115,34 @@ export function SentimentAnalyzer() {
                   <div className="flex items-center space-x-2">
                     <div
                       className={`w-3 h-3 rounded-full ${
-                        result.sentiment === "positive"
+                        result.label.toLowerCase() === "positive"
                           ? "bg-green-500"
                           : "bg-red-500"
                       }`}
                     />
                     <span className="text-gray-900 font-medium capitalize">
-                      {result.sentiment}
+                      {result.label.toLowerCase()}
                     </span>
                   </div>
 
                   <div className="text-right">
-                    <div className="text-sm text-gray-500">Confidence</div>
+                    <div className="text-sm text-gray-500">Score</div>
                     <div className="text-lg font-medium text-gray-900">
-                      {(result.confidence * 100).toFixed(1)}%
+                      {(result.score * 100).toFixed(1)}%
                     </div>
                   </div>
                 </div>
 
-                {/* Confidence Bar */}
+                {/* Score Bar */}
                 <div className="mt-3">
                   <div className="w-full bg-gray-200 rounded-full h-2">
                     <div
                       className={`h-2 rounded-full transition-all duration-300 ${
-                        result.sentiment === "positive"
+                        result.label.toLowerCase() === "positive"
                           ? "bg-green-500"
                           : "bg-red-500"
                       }`}
-                      style={{ width: `${result.confidence * 100}%` }}
+                      style={{ width: `${result.score * 100}%` }}
                     />
                   </div>
                 </div>
