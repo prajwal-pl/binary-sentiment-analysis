@@ -1,44 +1,98 @@
-{"text": "Great product!", "label": "positive"}
-{"text": "Terrible quality", "label": "negative"}
-{"text": "Amazing service!", "label": "positive"}
-{"text": "Worst experience ever", "label": "negative"}
-{"text": "I love this product!", "label": "positive"}
-{"text": "I hate this product!", "label": "negative"}
-{"text": "This is fantastic!", "label": "positive"}
-{"text": "This is awful", "label": "negative"}
-{"text": "Very satisfied with my purchase", "label": "positive"}
-{"text": "Extremely disappointed", "label": "negative"}
-{"text": "Best decision I've made", "label": "positive"}
-{"text": "Biggest regret ever", "label": "negative"}
-{"text": "I would buy this again", "label": "positive"}
-{"text": "I will never buy this again", "label": "negative"}
-{"text": "Highly recommend this product", "label": "positive"}
-{"text": "Do not waste your money on this", "label": "negative"}
-{"text": "Absolutely love it!", "label": "positive"}
-{"text": "Hated every moment of it", "label": "negative"}
-{"text": "This is worth every penny", "label": "positive"}
-{"text": "This was a complete waste of money", "label": "negative"}
-{"text": "I am very happy with this", "label": "positive"}
-{"text": "I am very unhappy with this", "label": "negative"}
-{"text": "This exceeded my expectations", "label": "positive"}
-{"text": "This did not meet my expectations", "label": "negative"}
-{"text": "I would recommend this to my friends", "label": "positive"}
-{"text": "I would not recommend this to anyone", "label": "negative"}
-{"text": "This is a game changer", "label": "positive"}
-{"text": "This is a total failure", "label": "negative"}
-{"text": "I am impressed with the quality", "label": "positive"}
-{"text": "The quality is subpar", "label": "negative"}
-{"text": "This is a great value for money", "label": "positive"}
-{"text": "This is overpriced for what it offers", "label": "negative"}
-{"text": "I will definitely buy this again", "label": "positive"}
-{"text": "I regret buying this", "label": "negative"}
-{"text": "This is a must-have item", "label": "positive"}
-{"text": "This is not worth your time", "label": "negative"}
-{"text": "I am very satisfied with this purchase", "label": "positive"}
-{"text": "I am very dissatisfied with this purchase", "label": "negative"}
-{"text": "This is a fantastic product", "label": "positive"}
-{"text": "This is a terrible product", "label": "negative"}
-{"text": "I would give this 5 stars", "label": "positive"}
-{"text": "I would give this 1 star", "label": "negative"}
-{"text": "This has changed my life for the better", "label": "positive"}
-{"text": "This has made my life worse", "label": "negative"}
+{"text": "Great product!", "label": "positive", "split": "train"}
+{"text": "Terrible quality", "label": "negative", "split": "train"}
+{"text": "Amazing service!", "label": "positive", "split": "train"}
+{"text": "Worst experience ever", "label": "negative", "split": "train"}
+{"text": "I love this product!", "label": "positive", "split": "train"}
+{"text": "I hate this product!", "label": "negative", "split": "train"}
+{"text": "This is fantastic!", "label": "positive", "split": "train"}
+{"text": "This is awful", "label": "negative", "split": "train"}
+{"text": "Very satisfied with my purchase", "label": "positive", "split": "train"}
+{"text": "Extremely disappointed", "label": "negative", "split": "train"}
+{"text": "Best decision I've made", "label": "positive", "split": "train"}
+{"text": "Biggest regret ever", "label": "negative", "split": "train"}
+{"text": "I would buy this again", "label": "positive", "split": "train"}
+{"text": "I will never buy this again", "label": "negative", "split": "train"}
+{"text": "Highly recommend this product", "label": "positive", "split": "train"}
+{"text": "Do not waste your money on this", "label": "negative", "split": "train"}
+{"text": "Absolutely love it!", "label": "positive", "split": "train"}
+{"text": "Hated every moment of it", "label": "negative", "split": "train"}
+{"text": "This is worth every penny", "label": "positive", "split": "train"}
+{"text": "This was a complete waste of money", "label": "negative", "split": "train"}
+{"text": "I am very happy with this", "label": "positive", "split": "train"}
+{"text": "I am very unhappy with this", "label": "negative", "split": "train"}
+{"text": "This exceeded my expectations", "label": "positive", "split": "train"}
+{"text": "This did not meet my expectations", "label": "negative", "split": "train"}
+{"text": "I would recommend this to my friends", "label": "positive", "split": "train"}
+{"text": "I would not recommend this to anyone", "label": "negative", "split": "train"}
+{"text": "This is a game changer", "label": "positive", "split": "train"}
+{"text": "This is a total failure", "label": "negative", "split": "train"}
+{"text": "I am impressed with the quality", "label": "positive", "split": "train"}
+{"text": "The quality is subpar", "label": "negative", "split": "train"}
+{"text": "This is a great value for money", "label": "positive", "split": "train"}
+{"text": "This is overpriced for what it offers", "label": "negative", "split": "train"}
+{"text": "I will definitely buy this again", "label": "positive", "split": "train"}
+{"text": "I regret buying this", "label": "negative", "split": "train"}
+{"text": "This is a must-have item", "label": "positive", "split": "train"}
+{"text": "This is not worth your time", "label": "negative", "split": "train"}
+{"text": "I am very satisfied with this purchase", "label": "positive", "split": "train"}
+{"text": "I am very dissatisfied with this purchase", "label": "negative", "split": "train"}
+{"text": "This is a fantastic product", "label": "positive", "split": "train"}
+{"text": "This is a terrible product", "label": "negative", "split": "train"}
+{"text": "I would give this 5 stars", "label": "positive", "split": "train"}
+{"text": "I would give this 1 star", "label": "negative", "split": "train"}
+{"text": "This has changed my life for the better", "label": "positive", "split": "train"}
+{"text": "This has made my life worse", "label": "negative", "split": "train"}
+{"text": "Outstanding quality and service", "label": "positive", "split": "train"}
+{"text": "Poor customer support experience", "label": "negative", "split": "train"}
+{"text": "Excellent value for the price", "label": "positive", "split": "train"}
+{"text": "Completely useless purchase", "label": "negative", "split": "train"}
+{"text": "Works perfectly as advertised", "label": "positive", "split": "train"}
+{"text": "Nothing but problems from day one", "label": "negative", "split": "train"}
+{"text": "Superb craftsmanship and design", "label": "positive", "split": "train"}
+{"text": "Cheap materials and poor construction", "label": "negative", "split": "train"}
+{"text": "Incredible performance and reliability", "label": "positive", "split": "train"}
+{"text": "Constant breakdowns and malfunctions", "label": "negative", "split": "train"}
+{"text": "Beautiful and well-made product", "label": "positive", "split": "train"}
+{"text": "Ugly and poorly designed item", "label": "negative", "split": "train"}
+{"text": "Fast shipping and great packaging", "label": "positive", "split": "train"}
+{"text": "Delayed delivery and damaged goods", "label": "negative", "split": "train"}
+{"text": "User-friendly and intuitive interface", "label": "positive", "split": "train"}
+{"text": "Confusing and difficult to use", "label": "negative", "split": "train"}
+{"text": "Durable and long-lasting quality", "label": "positive", "split": "train"}
+{"text": "Broke after just a few uses", "label": "negative", "split": "train"}
+{"text": "Innovative and cutting-edge technology", "label": "positive", "split": "train"}
+{"text": "Outdated and obsolete features", "label": "negative", "split": "train"}
+{"text": "Comfortable and ergonomic design", "label": "positive", "split": "train"}
+{"text": "Uncomfortable and awkward to handle", "label": "negative", "split": "train"}
+{"text": "Perfect size and fits well", "label": "positive", "split": "train"}
+{"text": "Wrong size and doesn't fit properly", "label": "negative", "split": "train"}
+{"text": "Helpful and responsive customer service", "label": "positive", "split": "train"}
+{"text": "Rude and unhelpful staff", "label": "negative", "split": "train"}
+{"text": "Quick and easy setup process", "label": "positive", "split": "train"}
+{"text": "Complicated and time-consuming installation", "label": "negative", "split": "train"}
+{"text": "Reliable and consistent performance", "label": "positive", "split": "train"}
+{"text": "Unreliable and inconsistent results", "label": "negative", "split": "train"}
+{"text": "Great features and functionality", "label": "positive", "split": "train"}
+{"text": "Limited features and poor functionality", "label": "negative", "split": "train"}
+{"text": "Stylish and modern appearance", "label": "positive", "split": "train"}
+{"text": "Old-fashioned and unattractive look", "label": "negative", "split": "train"}
+{"text": "This product works wonderfully", "label": "positive", "split": "test"}
+{"text": "I'm disappointed with this purchase", "label": "negative", "split": "test"}
+{"text": "Fantastic quality for the money", "label": "positive", "split": "test"}
+{"text": "Not worth the high price tag", "label": "negative", "split": "test"}
+{"text": "Easy to use and very effective", "label": "positive", "split": "test"}
+{"text": "Difficult to operate and unreliable", "label": "negative", "split": "test"}
+{"text": "Exceeded all my expectations", "label": "positive", "split": "test"}
+{"text": "Failed to meet basic requirements", "label": "negative", "split": "test"}
+{"text": "Would definitely purchase again", "label": "positive", "split": "test"}
+{"text": "Will be returning this immediately", "label": "negative", "split": "test"}
+{"text": "Impressive build quality", "label": "positive", "split": "test"}
+{"text": "Flimsy and poorly constructed", "label": "negative", "split": "test"}
+{"text": "Love the sleek design", "label": "positive", "split": "test"}
+{"text": "Hate the bulky appearance", "label": "negative", "split": "test"}
+{"text": "Works exactly as promised", "label": "positive", "split": "test"}
+{"text": "Nothing like what was advertised", "label": "negative", "split": "test"}
+{"text": "Great addition to my collection", "label": "positive", "split": "test"}
+{"text": "Worst purchase I've ever made", "label": "negative", "split": "test"}
+{"text": "Highly satisfied with performance", "label": "positive", "split": "test"}
+{"text": "Completely unsatisfied with results", "label": "negative", "split": "test"}
