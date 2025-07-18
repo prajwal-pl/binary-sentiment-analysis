@@ -17,7 +17,6 @@ def tokenize(examples):
     return tokenizer(examples["text"], padding="max_length", truncation=True, max_length=512)
 
 def convert_labels(examples):
-    """Convert string labels to integers"""
     labels = []
     for label in examples["label"]:
         if label.lower() == "positive":
